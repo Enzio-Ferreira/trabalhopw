@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+	<meta charset="utf-8">
+	<title>CRUD - Banco de Dados</title>
+	<style type="text/css">
+		@import url('https://fonts.googleapis.com/css2? family= Poppins:wght@200;800 & display=swap');
+body{
+	background-color: #8C8C8C;
+	color: #BCBCC1;
+	font-family: 'Poppins', sans-serif;
+
+
+}
+
+a{
+	text-decoration: none;
+	color: #BCBCC1;
+	font-family: 'Poppins', sans-serif;
+}
+
+.div{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	align-items: center;
+	text-align: center;
+
+	padding: 20px;
+	
+}
+
+.operacao{
+	padding: 10px;
+	margin-bottom: 5px;
+	border:1px #BCBCC1 solid;
+	border-radius: 20px;
+	background-color: transparent;
+	width: 200px;
+
+
+}
+
+.operacao:hover{
+	background: #BCBCC1;
+	transition: 0.5s;
+	color: #262626;
+}
+
+a:hover{
+	color: black;
+}
+	</style>
+</head>
+<body>
+	<div class="div">
+		<h2>Selecione a operação com o banco de dados!</h1>
+		<div class="">
+			<button class="operacao"><a href="formInsert.php"> Inserir - Creat/Insert</a></button>
+		</div>
+		<div class="">
+			<button  class="operacao"><a href="formRead.php"> Visualizar - Read </a></button>
+		</div>
+		<div class="">
+			<button  class="operacao"><a href="readAll.php"> Ver todos - Atualizar</a></button>
+		</div>
+		<div class="">
+			<button  class="operacao"><a href="readAllDelete.php"> Deletar - Delete</a></button>
+		</div>
+
+
+
+		
+		
+		
+		
+
+	</div>
+
+</body>
+</html>
